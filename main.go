@@ -22,6 +22,6 @@ func sayHello(ch chan int) {
 
 func Hello(ch chan string) {
 
-	ch <- "Hii From Hello Goroutine"
+	ch <- "Hii From Hello Goroutine" 
 
 }
