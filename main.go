@@ -3,6 +3,8 @@ package main
 import "fmt"
 
 func main() {
-    var numbers []int
-    fmt.Println(numbers[0])  // ❌ index out of range
+	for i := 0; i <= 10; i++ {
+		fmt.Println(i)
+	}
+
 }
